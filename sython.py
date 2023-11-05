@@ -79,11 +79,12 @@ async def _(event):
     end = datetime.datetime.now()
     ms = (end - start).microseconds / 1000
     await event.edit(f'''
-**☆ 𝗦𝗢𝗨𝗥𝗖𝗘 illl0 
-☆ 𝙳𝙰𝚃𝙴 : `{m9zpi}`
+**☆ WELCOME TO illl0
+☆ VERSION : 2.8
+☆ PING : `{ms}`
+☆ DATE : `{m9zpi}`
 ☆ ID : `{event.sender_id}`
-☆ 𝚂𝙾𝚄𝚁𝙲𝙴 illl0 : @illl0 = @Max985 
- $ 𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁 : @isAndreew**
+☆ SOURCE zero : @illl0**
 
 -قـم بأرسال `.الاوامر`
 ''')
